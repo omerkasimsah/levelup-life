@@ -1,6 +1,7 @@
 {
-  "name": "uygulama",
+  "name": "levelup-life",
   "version": "1.0.0",
+  "description": "Gamified habit and life-tracking mobile app built with React Native and Expo.",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
@@ -9,10 +10,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.0.2",
     "expo": "~54.0.33",
+    "expo-haptics": "^55.0.14",
+    "expo-linear-gradient": "^55.0.13",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-google-mobile-ads": "^16.3.2"
   },
   "private": true
 }
